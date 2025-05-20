@@ -1,0 +1,782 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bc3b68a9-0a75-4d50-b4e7-0159324ae2ac")
+	(paper "A4")
+	(title_block
+		(title "Mixed-Signal Demo PCB")
+		(date "2024-12-21")
+		(rev "0.1")
+		(company "Maanika")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 149.86 48.26) (xy 176.53 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dada02a-adfa-4550-846a-64ab3c41574f")
+	)
+	(wire
+		(pts
+			(xy 149.86 52.07) (xy 176.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "287f105f-96b0-4481-860a-5f4a76803a99")
+	)
+	(wire
+		(pts
+			(xy 149.86 55.88) (xy 176.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463d13ef-cdb8-4840-8cf1-5c853bdad5ec")
+	)
+	(wire
+		(pts
+			(xy 149.86 96.52) (xy 176.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e382046-7b72-4498-b1cb-23009793c027")
+	)
+	(wire
+		(pts
+			(xy 149.86 92.71) (xy 176.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a450b105-9748-4c68-bbf4-4d4d0d460f1c")
+	)
+	(wire
+		(pts
+			(xy 149.86 102.87) (xy 176.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ef8345-01da-4fbd-a151-54f1637c9d9f")
+	)
+	(wire
+		(pts
+			(xy 149.86 106.68) (xy 176.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcae85db-4e1c-4817-9128-117d5a5074da")
+	)
+	(wire
+		(pts
+			(xy 149.86 88.9) (xy 176.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e894409e-1ccb-457d-a27b-2f2c8e88277e")
+	)
+	(rectangle
+		(start 16.51 165.1)
+		(end 40.64 193.04)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 80bff058-2b96-468d-be64-2bfbbd7007dd)
+	)
+	(text "Mixed-Signal Demo PCB"
+		(exclude_from_sim no)
+		(at 140.716 23.876 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "3a1c7ca9-dc14-4823-b23b-8d891b0f76af")
+	)
+	(text "Mounting Holes (M3)"
+		(exclude_from_sim no)
+		(at 26.416 162.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7fb0c52-e6a3-4d5a-a1e1-ef803274b438")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 20.32 187.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "421ffa35-660e-4fdd-872a-9eeba262218f")
+		(property "Reference" "H4"
+			(at 22.86 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 22.86 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 20.32 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 20.32 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mixed_signal_demo"
+				(path "/bc3b68a9-0a75-4d50-b4e7-0159324ae2ac"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 20.32 168.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9a44ba9-4ee8-42b5-b4d1-8b625be07acc")
+		(property "Reference" "H1"
+			(at 22.86 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 22.86 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 20.32 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 20.32 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mixed_signal_demo"
+				(path "/bc3b68a9-0a75-4d50-b4e7-0159324ae2ac"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 20.32 181.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf67208c-edfd-41ac-bf31-6e7ff1ac6854")
+		(property "Reference" "H3"
+			(at 22.86 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 22.86 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 20.32 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 20.32 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mixed_signal_demo"
+				(path "/bc3b68a9-0a75-4d50-b4e7-0159324ae2ac"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 20.32 175.26 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faa7d71b-a629-4ca9-9f50-9f6b1ff519f8")
+		(property "Reference" "H2"
+			(at 22.86 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 22.86 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 20.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 20.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mixed_signal_demo"
+				(path "/bc3b68a9-0a75-4d50-b4e7-0159324ae2ac"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 40.64)
+		(size 27.94 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c0e1d7b-923d-4489-a228-2b38d713d72a")
+		(property "Sheetname" "ADC"
+			(at 176.53 39.6744 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 176.53 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_SCLK" input
+			(at 176.53 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9e30ec10-f5d8-4738-9ee1-3c674eb23559")
+		)
+		(pin "ADC_NCS" input
+			(at 176.53 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce752291-1dda-41bf-b9e4-abd6de9478b1")
+		)
+		(pin "ADC_DOUT" output
+			(at 176.53 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c01742f0-24c6-461b-9ce9-a850517787cf")
+		)
+		(instances
+			(project "mixed_signal_demo"
+				(path "/bc3b68a9-0a75-4d50-b4e7-0159324ae2ac"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 40.64)
+		(size 31.75 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b24bf7a5-3c55-4c93-8e16-eafa4ac1517c")
+		(property "Sheetname" "Power"
+			(at 66.04 39.6744 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 66.04 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mixed_signal_demo"
+				(path "/bc3b68a9-0a75-4d50-b4e7-0159324ae2ac"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 83.82)
+		(size 26.67 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c95ce6d5-0a3b-47c9-be39-c81a447a0985")
+		(property "Sheetname" "DAC"
+			(at 176.53 82.8544 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dac.kicad_sch"
+			(at 176.53 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DAC_NLDAC" input
+			(at 176.53 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "64783890-2081-426e-8390-036e44017371")
+		)
+		(pin "DAC_NCLR" input
+			(at 176.53 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ae86d224-b800-4096-b3c7-dae017c8ac5d")
+		)
+		(pin "DAC_SCLK" input
+			(at 176.53 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "10add945-5bc5-42cc-9429-78c233a469f6")
+		)
+		(pin "DAC_IN" input
+			(at 176.53 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "59e771f0-81b7-4fa1-b4bb-4110ca44d480")
+		)
+		(pin "DAC_NSYNC" input
+			(at 176.53 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4b94bc7c-d6c1-45ff-9e3c-997f6961044f")
+		)
+		(instances
+			(project "mixed_signal_demo"
+				(path "/bc3b68a9-0a75-4d50-b4e7-0159324ae2ac"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 40.64)
+		(size 31.75 72.39)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e54e2b45-f92a-4b77-8bbf-071a3054b3a7")
+		(property "Sheetname" "MCU"
+			(at 118.11 39.6744 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 118.11 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI1_NSS" output
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f1ae62f4-c29a-4a6d-ba89-588d08fa53df")
+		)
+		(pin "SPI1_SCK" output
+			(at 149.86 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2b2f6e64-f701-41e1-91af-7ac23e16ce8b")
+		)
+		(pin "SPI1_MISO" input
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c4538e52-df24-438a-9f84-53d6cfde440d")
+		)
+		(pin "SPI2_MOSI" output
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "458ce9d2-92c3-4410-9e96-f7515fdb95e4")
+		)
+		(pin "SPI2_SCK" output
+			(at 149.86 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "23b928ef-c5a1-4ed4-bf38-82cefde625ea")
+		)
+		(pin "SPI2_NSS" output
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f2ae954-a115-4b99-a0e8-964caa3bf278")
+		)
+		(pin "DAC_NCLR" output
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "358cc0cd-a625-4777-9e33-6014aacedafb")
+		)
+		(pin "DAC_NLDAC" output
+			(at 149.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "396737b6-1cf4-435a-a55d-b349baefe38d")
+		)
+		(instances
+			(project "mixed_signal_demo"
+				(path "/bc3b68a9-0a75-4d50-b4e7-0159324ae2ac"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
